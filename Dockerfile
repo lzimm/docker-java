@@ -1,4 +1,4 @@
-FROM pallet/ubuntu-nodoc
+FROM library/ubuntu:vivid
 
 # Add JRE
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openjdk-8-jre-headless
